@@ -61,7 +61,7 @@ FROM customers c
 GROUP BY c.customer_unique_id
 ORDER BY product_revenue_per_customer DESC;
 
--- State analysis: customers, revenue, orders
+-- State analysis: customers, orders, average order value, revenue
 SELECT c.customer_state, 
 	COUNT(DISTINCT c.customer_unique_id) AS unique_customers,
     COUNT(DISTINCT oi.order_id) AS number_of_orders,
