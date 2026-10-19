@@ -5,6 +5,14 @@
 This portfolio project explores sales performance, product categories, delivery performance and geographic sales patterns using data from Olist, a Brazilian e-commerce marketplace.
 The analysis uses five of the nine available tables: orders, order_items, products, customers and product category name translation table.
 
+## Dashboard Preview
+
+![E-commerce Performance Overview](images/01_executive_dashboard.png)
+
+The Power BI report contains four interactive pages covering overall sales performance, product and category analysis, delivery performance, and geographic sales distribution.
+
+Additional screenshots of the report pages are available in the [`images`](images/) folder.
+
 ## Dataset
 
 The dataset comes from the [Brazilian E-Commerce Public Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
