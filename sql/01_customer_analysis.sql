@@ -1,4 +1,5 @@
 -- DATA EXPLORATION
+USE olist;
 
 -- ORDERS
 
